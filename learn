@@ -1,7 +1,5 @@
-def can_divide_by?(number)
-	return false if number.zero?
-	true
+def max(one,*num,two)
+	num.max
 end
 
-puts can_divide_by? 3
-puts can_divide_by?(0)
+puts max("something",7,32,-4,"more")
